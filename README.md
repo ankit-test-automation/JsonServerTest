@@ -12,7 +12,7 @@ Here we have mocked following Rest APIs
 ## To start json server, run following command
 * npm run json:server
 
-Json server will point to port 3000 by default. To change port, specify different port number in package.json file or you can also change port number with command npm run json:server -p <<port-number>>
+Json server will point to port 3000 by default. To change port, specify different port number in package.json file or you can also change port number with command npm run json:server -p << portnumber >>
   
   
   ## API URLs
