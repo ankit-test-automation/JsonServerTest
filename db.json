@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstname": "John",
+      "lastname": "Doe",
+      "companyid": 1,
+      "email": "johndoe@gmail.com",
+      "age": 40
+    },
+    {
+      "id": 2,
+      "firstname": "Tony",
+      "lastname": "Stark",
+      "companyid": 1,
+      "email": "tonystark@gmail.com",
+      "age": 41
+    },
+    {
+      "id": 3,
+      "firstname": "Chuck",
+      "lastname": "Norris",
+      "companyid": 1,
+      "email": "chucknorris@gmail.com",
+      "age": 42
+    }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "name": "Google",
+      "Description": "Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware."
+    },
+    {
+      "id": 2,
+      "name": "Facebook",
+      "Description": "Facebook (FB) is an American online social media and social networking service based in Menlo Park, California and a flagship service of the namesake company Facebook, Inc."
+    }
+  ]
+}
