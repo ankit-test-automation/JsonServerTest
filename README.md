@@ -17,6 +17,7 @@ Json server will point to port 3000 by default. To change port, specify differen
   
   ## API URLs
   * http://localhost:3000/users
+  
   Input Payload Example:
   ```json
   {
@@ -29,6 +30,7 @@ Json server will point to port 3000 by default. To change port, specify differen
   ```
   
   * http://localhost:3000/companies
+  
   Input payload Example:
   ```json
    {
