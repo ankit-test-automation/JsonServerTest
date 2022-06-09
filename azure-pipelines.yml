@@ -10,7 +10,10 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: echo Hello, world!
+- script:
+        npm install
+        npm run json:server
+
   displayName: 'Run a one-line script'
 
 - script: |
