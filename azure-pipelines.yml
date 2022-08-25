@@ -16,7 +16,7 @@ steps:
 - task: CopyFiles@2
   inputs:
     SourceFolder: '$(build.sourcesdirectory)'
-    Contents: '../LargeApp.Mobile.Tests/bin/Debug/netcoreapp3.1/screenshots/*'
+    Contents: 'LargeApp.Mobile.Tests/bin/Debug/netcoreapp3.1/screenshots/*'
     TargetFolder: '$(build.artifactstagingdirectory)'
 
 - task: PublishBuildArtifacts@1
