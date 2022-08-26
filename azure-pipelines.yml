@@ -22,5 +22,5 @@ steps:
 - task: PublishBuildArtifacts@1
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)/LargeApp.Mobile.Tests/bin/Debug/netcoreapp3.1/'
-    ArtifactName: 'drop'
+    ArtifactName: 'drop/screenshots'
     publishLocation: 'Container'
